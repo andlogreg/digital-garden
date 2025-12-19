@@ -38,16 +38,17 @@ p img + em,
 // }
 
 ///////////////////
+@media all and (min-width: 1200px) {
+    #quartz-body {
+    /* This forces the middle column of the grid to never exceed 720px */
+    grid-template-columns: 1fr minmax(0, 750px) 1fr !important;
+    justify-content: center;
+    }
 
-#quartz-body {
-  /* This forces the middle column of the grid to never exceed 720px */
-  grid-template-columns: 1fr minmax(0, 750px) 1fr !important;
-  justify-content: center;
-}
-
-.center {
-  width: 100% !important;
-  /* Now 100% means 100% of 720px */
+    .center {
+    width: 100% !important;
+    /* Now 100% means 100% of 720px */
+    }
 }
 
 h1 {
