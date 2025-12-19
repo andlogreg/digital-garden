@@ -1,5 +1,23 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { Options } from "./quartz/components/Explorer"
+
+export const mapFn: Options["mapFn"] = (node) => {
+  const folderNames = new Set(["blog"])
+  if (node.isFolder && folderNames.has(node.displayName.toLowerCase())) {
+    node.isFolder = false
+  }
+  return node
+}
+export const filterFn: Options["filterFn"] = (node) => {
+  const isInsideFolder = !!node.data?.slug.startsWith("blog/")
+  console.log('This is the node:', node)
+  console.log('isInsideFolder:', isInsideFolder)
+  console.log('node.isFolder:', node.isFolder)
+
+  return !(isInsideFolder && !node.isFolder)
+}
+
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -38,7 +56,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Contents",
+      filterFn,
+      mapFn,
+    }),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +84,11 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Contents",
+      filterFn,
+      mapFn,
+    }),
   ],
   right: [],
 }
