@@ -2,25 +2,30 @@
 title: Fully encrypted Arch Linux in Dual Boot with macOS on a MacBook Pro Mid-2014 - Part 1
 created: 2024-11-12
 published: 2024-11-12
-updated: 2025-12-19
+updated: 2025-12-20
 up:
 related:
-tags: []
+tags:
+  - t/on/dual_boot
+  - t/on/linux
+  - t/on/macos
+  - t/on/disk_partitioning
 summary:
 publish: true
+description: MacOS Steps, Starting Arch Installation and Configuring Wireless Adapter
 ---
 ![[file-20251219183345299.jpg]]
 *Yes, yes. AI Generated. Because… why not? :)*
 
 In this multipart guide, I’ll walk you through how I **Installed Arch Linux alongside macOS on a MacBook Pro Mid-2014** with full disk encryption.
 
-If you’re interested in why I took this challenge and why I believe its valuable exercise for those looking to deepen their Linux expertise, check out my previous blog post: [[20251218 Deepening My Linux Skills - From macOS to Arch]]
+If you’re interested in why I took this challenge and why I believe its valuable exercise for those looking to deepen their Linux expertise, check out my previous blog post: [[20241107 Deepening My Linux Skills - From macOS to Arch]]
 
 ---
 Navigation:
-- [This one] **Part 1** - Preparing MacOS, Starting Arch Installation and Configuring Wireless Adapter 
-- TODO
-- TODO
+- [This one] **Part 1** - Preparing MacOS, Starting Arch Installation and Configuring Wireless Adapter
+- **Part 2** - [[20241113 Fully encrypted Arch Linux in Dual Boot with macOS on a MacBook Pro Mid-2014 - Part 2|Disk Partitioning and Encryption]]
+- **Part 3** - [[20241114 Fully encrypted Arch Linux in Dual Boot with macOS on a MacBook Pro Mid-2014 - Part 3|Base Arch Linux Installation]]
 ---
 
 _**Notes:**_
@@ -44,7 +49,7 @@ And let’s dive in!
 
 1. Download the ISO from the official Arch Linux site: [https://archlinux.org/download/](https://archlinux.org/download/). At the time of writing, 2024.11.01 was the latest version.
 
-2. 1. Create a bootable USB with the ISO. I used Ventoy, which was already set up on my USB (see instructions [here](https://wiki.archlinux.org/title/USB_flash_installation_medium#Using_ventoy)), but there are other methods at the same link.
+2. Create a bootable USB with the ISO. I used Ventoy, which was already set up on my USB (see instructions [here](https://wiki.archlinux.org/title/USB_flash_installation_medium#Using_ventoy)), but there are other methods at the same link.
 
 ### Update Firmware and Set Startup Chime Volume
 
@@ -143,6 +148,6 @@ Simply run:
 timedatectl 
 ```
 
-#### Disk Partitioning - Second Challenge!
+### Disk Partitioning - Second Challenge!
 
-_Continues in Part2:_ TODO
+_Continues in [[20241113 Fully encrypted Arch Linux in Dual Boot with macOS on a MacBook Pro Mid-2014 - Part 2|Part 2]]..._

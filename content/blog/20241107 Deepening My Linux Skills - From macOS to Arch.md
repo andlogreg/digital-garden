@@ -39,4 +39,4 @@ As a final touch of challenge, I’ll attempt to keep macOS installed and **set
 So… I’m genuinely excited! I’ll start working on this project over the weekend and aim to share my progress next week!
 
 **Update:** My next post is already live! Read here:
-[[20251219 Fully encrypted Arch Linux in Dual Boot with macOS on a MacBook Pro Mid-2014 - Part 1]]
+[[20241112 Fully encrypted Arch Linux in Dual Boot with macOS on a MacBook Pro Mid-2014 - Part 1]]
