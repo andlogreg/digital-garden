@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Andlogreg’s Memory Leaks",
+    pageTitle: "Andlogreg's Memory Leaks",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "andlogreg.github.io/digital-garden",
+    baseUrl: "andlogreg.work",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "published",
     theme: {

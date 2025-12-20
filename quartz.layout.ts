@@ -23,7 +23,20 @@ export const filterFn: Options["filterFn"] = (node) => {
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        repo: 'andlogreg/digital-garden',
+        repoId: 'R_kgDOQr8TXg',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOQr8TXs4C0DgO',
+        lang: 'en',
+        inputPosition: "top",
+        mapping: "pathname",
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
