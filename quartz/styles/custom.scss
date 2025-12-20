@@ -84,6 +84,7 @@ p:not(:has(img)):not(:has(span.icon)) {
 .search-button p,
 .breadcrumb-element p {
   text-indent: 0px !important;
+  margin-top: 0px !important;
   margin-bottom: 0px !important;
 }
 
