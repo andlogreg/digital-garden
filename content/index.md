@@ -1,10 +1,11 @@
 ---
-title: Where thoughts escape my mental RAM.
-updated: 2025-12-19
+title: Where thoughts escape my mental RAM
+updated: 2025-12-21
 publish: true
+comments: false
 ---
-# 🚧 🚧 🚧 
+Welcome 👋
 
-> [!info] NOTE: This is still a WIP as I learn how to use [Quartz](https://quartz.jzhao.xyz).
+Some starting points:
 
-
+- Longer and more structured content in [[blog/]]
