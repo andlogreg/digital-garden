@@ -2,7 +2,7 @@
 title: Fully encrypted Arch Linux in Dual Boot with macOS on a MacBook Pro Mid-2014 - Part 3
 created: 2024-11-14
 published: 2024-11-14
-updated: 2025-12-20
+updated: 2025-12-21
 up:
 related:
 tags:
@@ -14,6 +14,7 @@ summary:
 description: Getting the base Arch Linux installed
 publish: true
 ---
+![[file-20251219183345299.jpg]]
 Welcome to Part 3 of my multi-part guide on **Installing Arch Linux alongside macOS on a Mid-2014 MacBook Pro** with full disk encryption.
 
 With the hard drive partitioned and encrypted, it’s time to start the base installation of Arch Linux. By the end of this section, you’ll have a functional, minimal Arch Linux setup ready for customization and use.
