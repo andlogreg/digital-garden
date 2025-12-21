@@ -102,6 +102,25 @@ ul.toc-content li {
   margin-bottom: 0.4rem;       /* Adds a tiny bit of space between different headers */
 }
 
+// Recent notes section
+.recent-notes h3 {
+  font-size: 0.95rem !important;
+  color: var(--darkgray) !important;
+}
+.recent-li a {
+  text-indent: 0px !important;
+  font-size: .90rem !important;
+  line-height: 1.0rem !important;
+}
+.recent-li h3 {
+  padding-bottom: 0px !important;
+  line-height: 1.0rem !important;
+  margin-bottom: 0.4rem !important;
+}
+li.recent-li {
+  margin: 0.0rem !important;
+}
+
 // #search-button > p {
 //   text-indent: 0px;
 //   margin-bottom: 0px;

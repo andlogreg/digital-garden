@@ -1,6 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { Options } from "./quartz/components/Explorer"
+import { QuartzPluginData } from "./quartz/plugins/vfile"
 
 export const mapFn: Options["mapFn"] = (node) => {
   const folderNames = new Set(["blog"])
@@ -11,11 +12,18 @@ export const mapFn: Options["mapFn"] = (node) => {
 }
 export const filterFn: Options["filterFn"] = (node) => {
   const isInsideFolder = !!node.data?.slug.startsWith("blog/")
-  console.log('This is the node:', node)
-  console.log('isInsideFolder:', isInsideFolder)
-  console.log('node.isFolder:', node.isFolder)
+  // console.log('This is the node:', node)
+  // console.log('isInsideFolder:', isInsideFolder)
+  // console.log('node.isFolder:', node.isFolder)
 
   return !(isInsideFolder && !node.isFolder)
+}
+
+export const recentNotesFilterFn = (qData: QuartzPluginData) => {
+  if (qData.slug && qData.slug.toString().includes("index")) {
+    return false
+  }
+  return true
 }
 
 
@@ -24,6 +32,15 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
+    Component.ConditionalRender({
+      component: Component.RecentNotes({
+        showTags: false,
+        showDates: false,
+        filter: recentNotesFilterFn,
+        limit: 10,
+      }),
+      condition: (page) => page.fileData.slug == "index",
+    }),
     Component.Comments({
       provider: 'giscus',
       options: {
