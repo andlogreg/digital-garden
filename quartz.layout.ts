@@ -40,6 +40,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "🔗 All My Links": "https://links.andlogreg.work",
+      "RSS": "https://andlogreg.work/index.xml",
     },
   }),
 }
