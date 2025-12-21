@@ -68,6 +68,7 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
     <ul class="section-ul">
       {list.map((page) => {
         const title = page.frontmatter?.title
+        const description = page.description
         const tags = page.frontmatter?.tags ?? []
 
         return (
@@ -82,6 +83,7 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
                     {title}
                   </a>
                 </h3>
+                <p>{description}</p>
               </div>
               <ul class="tags">
                 {tags.map((tag) => (

@@ -89,11 +89,14 @@ p:not(:has(img)):not(:has(span.icon)) {
   padding-top: 0px !important;
 }
 
+.page-listing p,
+footer p,
 p.content-meta,
 blockquote p {
-  text-indent: 0px;
+  text-indent: 0px !important;
 } 
 
+ul.overflow li,
 ul.toc-content li {
   line-height: 1.2 !important; /* Makes lines closer together */
   margin-bottom: 0.4rem;       /* Adds a tiny bit of space between different headers */
@@ -102,11 +105,4 @@ ul.toc-content li {
 // #search-button > p {
 //   text-indent: 0px;
 //   margin-bottom: 0px;
-// }
-
-// footer > p {
-//   margin-top: 2px;
-//   margin-bottom: 16px;
-//   padding-top: 2px;
-//   text-indent: 8px;
 // }
