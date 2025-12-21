@@ -129,3 +129,8 @@ li.recent-li {
 // ul.content a{
 //   font-size: .90rem !important;
 // }
+
+li.section-li>.section {
+  // Remove the following line if adding back tags to PageList
+  grid-template-columns: fit-content(8em) 3fr;
+}

@@ -85,7 +85,8 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
                 </h3>
                 <p>{description}</p>
               </div>
-              <ul class="tags">
+              {/* Remove `li.section-li>.section` from custom.scss if adding tags back */}
+              {/* <ul class="tags">
                 {tags.map((tag) => (
                   <li>
                     <a
@@ -96,7 +97,7 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
                     </a>
                   </li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
           </li>
         )
