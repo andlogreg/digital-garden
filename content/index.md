@@ -1,5 +1,5 @@
 ---
-title: Welcome to where thoughts escape my mental RAM.
+title: Where thoughts escape my mental RAM.
 updated: 2025-12-19
 publish: true
 ---
