@@ -79,5 +79,4 @@ qm template 9000
 
 ## Next
 
-Once the template is created, clone it and apply Cloud-Init settings  
-(SSH key, hostname, IP config, etc.) per VM.
+Once the template is created, clone it and apply Cloud-Init settings (SSH key, hostname, IP config, etc.) per VM.
