@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Andlogreg's Memory Leaks",
-    pageTitleSuffix: " Where thoughts escape my mental RAM",
+    pageTitleSuffix: " -- Where thoughts escape my mental RAM",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
