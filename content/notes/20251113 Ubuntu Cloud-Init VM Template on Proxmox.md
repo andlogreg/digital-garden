@@ -2,7 +2,7 @@
 title: Ubuntu Cloud-Init VM Template on Proxmox
 created: 2025-11-13
 published: 2025-11-13
-updated: 2025-12-21
+updated: 2025-12-22
 tags:
   - t/on/proxmox
   - t/on/homelab
@@ -79,4 +79,4 @@ qm template 9000
 
 ## Next
 
-Once the template is created, clone it and apply Cloud-Init settings (SSH key, hostname, IP config, etc.) per VM. → ***Notes on this to be created soon... 👨‍💻***
+Once the template is created, clone it and apply Cloud-Init settings (SSH key, hostname, IP config, etc.) per VM. → [[20251222 Proxmox VM from Cloud-Init template with Terraform]]
