@@ -6,7 +6,7 @@ updated: 2025-12-22
 up:
 related:
 tags:
-  - "#t/on/proxmox"
+  - t/on/proxmox
   - t/on/terraform
   - t/on/homelab
 summary:
