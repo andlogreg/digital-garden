@@ -34,6 +34,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.ConditionalRender({
       component: Component.RecentNotes({
+        title: "Recent Notes & Posts",
         showTags: false,
         showDates: false,
         filter: recentNotesFilterFn,
