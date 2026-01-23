@@ -14,8 +14,6 @@ tags:
 summary:
 publish: true
 description: Reduce NVIDIA RTX 4090 idle power consumption from 30W to 9W on Kubernetes.
-socialDescription:
-socialImage:
 ---
 ## The Goal
 
