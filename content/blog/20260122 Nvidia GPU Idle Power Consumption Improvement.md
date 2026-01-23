@@ -2,7 +2,7 @@
 title: Optimizing NVIDIA RTX 4090 Idle Power Consumption in Linux & Kubernetes
 created: 2026-01-22
 published: 2026-01-22
-updated: 2026-01-22
+updated: 2026-01-23
 up:
 related:
 tags:
@@ -19,7 +19,7 @@ socialImage:
 ---
 ## The Goal
 
-Reducing power draw in a homelab environment is often a game of small gains. However, discovering that my NVIDIA RTX 4090 was idling at 25–30W under Linux—compared to just 10W on Windows—prompted a deep dive into NVIDIA’s power management parameters.
+Reducing power draw in a homelab environment is a game of small gains. Discovering that my NVIDIA RTX 4090 was idling at 25–30W under Linux (compared to just 10W on Windows) prompted a deep dive into NVIDIA’s power management parameters.
 
 ## The Problem: High Idle Draw
 
