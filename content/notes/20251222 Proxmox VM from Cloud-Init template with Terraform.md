@@ -12,8 +12,6 @@ tags:
 summary:
 publish: true
 description: Deploying Proxmox VMs from Cloud-Init templates using Terraform
-socialDescription:
-socialImage:
 ---
 ## Goal
 

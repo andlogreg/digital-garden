@@ -12,8 +12,6 @@ tags:
 summary:
 publish: true
 description: How to set up a Proxmox user and token for secure Terraform access.
-socialDescription:
-socialImage:
 ---
 ## Goal
 

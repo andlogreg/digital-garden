@@ -10,13 +10,12 @@ tags:
 summary:
 publish: true
 description: Collection of essential pre-commit hooks to automate code quality.
-socialDescription:
-socialImage:
 ---
 A curated collection of `pre-commit` hooks to automate code linting, formatting, and security checks.
 
 
 > [!info] 🏗️ Work in Progress...
+> If interested, bookmark this page!
 
 ## General Housekeeping
 ### Pre-commit Hooks
