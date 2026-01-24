@@ -18,7 +18,7 @@ export default ((opts?: Options) => {
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
         </p> */}
         <p>
-          Andlogreg © 2025
+          Andlogreg © 2026
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
