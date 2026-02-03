@@ -2,7 +2,7 @@
 title: PostgreSQL Automated Backups and Recovery on Azure with CloudNativePG
 published: 2026-01-24
 created: 2026-01-24
-updated: 2026-01-24
+updated: 2026-01-25
 up:
 related:
 tags:
