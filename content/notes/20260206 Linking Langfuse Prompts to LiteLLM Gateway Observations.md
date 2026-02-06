@@ -24,7 +24,7 @@ Also, while the client-side trace correctly identifies which **Prompt Version** 
 
 Unify these traces and, crucially, **force LiteLLM to recognize the specific Langfuse Prompt version** using a **custom** metadata helper.
 
-## The Baseline Setup
+## Baseline Setup
 
 Start with a standard setup:
 
