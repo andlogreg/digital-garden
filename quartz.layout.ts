@@ -4,14 +4,16 @@ import { Options } from "./quartz/components/Explorer"
 import { QuartzPluginData } from "./quartz/plugins/vfile"
 
 export const mapFn: Options["mapFn"] = (node) => {
-  const folderNames = new Set(["blog"])
+  // const folderNames = new Set(["NON_EXISTENT"])
+  const folderNames = new Set(["blog", "notes & references"])
   if (node.isFolder && folderNames.has(node.displayName.toLowerCase())) {
     node.isFolder = false
   }
   return node
 }
 export const filterFn: Options["filterFn"] = (node) => {
-  const isInsideFolder = !!node.data?.slug.startsWith("blog/")
+  const isInsideFolder = !!node.data?.slug.startsWith("NON_EXISTENT")
+  // const isInsideFolder = !!node.data?.slug.startsWith("blog/")
   // console.log('This is the node:', node)
   // console.log('isInsideFolder:', isInsideFolder)
   // console.log('node.isFolder:', node.isFolder)
@@ -93,6 +95,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Contents",
+      folderDefaultState: "collapsed",
       filterFn,
       mapFn,
     }),

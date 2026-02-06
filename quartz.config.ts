@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Andlogreg's Memory Leaks",
+    pageTitle: "Andlogreg's Notes",
     pageTitleSuffix: " -- Where thoughts escape my mental RAM",
     enableSPA: true,
     enablePopovers: true,
