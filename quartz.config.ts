@@ -40,49 +40,49 @@ const config: QuartzConfig = {
       },
       // colors: {
       //   lightMode: {
-      //     light: "#fcfcfc",       // Brighter, paper-like white
-      //     lightgray: "#efefef",
-      //     gray: "#9e9e9e",
-      //     darkgray: "#404040",
-      //     dark: "#1a1a1a",        // Deep black for headers
-      //     secondary: "#154c7e",   // Traditional "Oxford" Blue
-      //     tertiary: "#8e9aaf",
-      //     highlight: "rgba(21, 76, 126, 0.08)",
+      //     light: "#faf9f6",      // Off-white
+      //     lightgray: "#e5e7eb",
+      //     gray: "#9ca3af",
+      //     darkgray: "#4b5563",
+      //     dark: "#1f2937",
+      //     secondary: "#587a6f",   // Muted Sage Green
+      //     tertiary: "#84a98c",    // Soft Fern
+      //     highlight: "rgba(88, 122, 111, 0.15)",
       //     textHighlight: "#fff23688",
       //   },
       //   darkMode: {
-      //     light: "#121212",
-      //     lightgray: "#2a2a2a",
-      //     gray: "#737373",
-      //     darkgray: "#d4d4d4",
-      //     dark: "#ffffff",
-      //     secondary: "#6ea5d8",   // Lighter blue for dark mode
-      //     tertiary: "#8e9aaf",
-      //     highlight: "rgba(110, 165, 216, 0.15)",
+      //     light: "#1a1f1c",       // Deep forest black
+      //     lightgray: "#2e3633",
+      //     gray: "#889c96",
+      //     darkgray: "#9da5a0",
+      //     dark: "#c8d2ce",
+      //     secondary: "#81b29a",   // Pastel Green
+      //     tertiary: "#a3b18a",    // Muted Olive
+      //     highlight: "rgba(129, 178, 154, 0.15)",
       //     textHighlight: "#b3aa0288",
       //   },
       // },
 
       colors: {
         lightMode: {
-          light: "#fdf6e3",       // Solarized cream
-          lightgray: "#eee8d5",
+          light: "#faf9f6",      // Neutral off-white
+          lightgray: "#e4e4e7",   // Crisp light gray
           gray: "#93a1a1",
           darkgray: "#586e75",
           dark: "#073642",
           secondary: "#2d6a4f",   // Deep forest green
-          tertiary: "#b58900",    // Earthy gold
+          tertiary: "#b58900",    // Muted magenta (matching dark mode)
           highlight: "rgba(45, 106, 79, 0.1)",
           textHighlight: "#f9e07688",
         },
         darkMode: {
-          light: "#002b36",       // Solarized deep teal
-          lightgray: "#073642",
+          light: "#161618",       // Neutral dark
+          lightgray: "#393639",   // Dark gray
           gray: "#839496",
           darkgray: "#93a1a1",
-          dark: "#eee8d5",
+          dark: "#ebebec",
           secondary: "#52b788",   // Minty forest green
-          tertiary: "#d33682",    // Muted magenta
+          tertiary: "#b58900",    // Muted magenta
           highlight: "rgba(82, 183, 136, 0.15)",
           textHighlight: "#b3aa0288",
         },
