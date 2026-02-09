@@ -79,12 +79,14 @@ export default (() => {
             <meta property="twitter:domain" content={cfg.baseUrl}></meta>
             <meta property="og:url" content={socialUrl}></meta>
             <meta property="twitter:url" content={socialUrl}></meta>
+            <link rel="canonical" href={socialUrl} />
           </>
         )}
 
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        {/* <meta name="google-site-verification" content="google-site-verification=REPLACE_ME" /> */}
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
